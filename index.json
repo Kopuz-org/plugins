@@ -1,1 +1,28 @@
-
+{
+  "schema": 1,
+  "plugins": [
+    {
+      "id": "audius",
+      "name": "Audius",
+      "version": "0.1.0",
+      "api": "0.1",
+      "description": "An Audius profile's tracks, albums and playlists, with its reposts, the trending chart, live search and genre radio.",
+      "author": "FormalSnake",
+      "homepage": "https://github.com/FormalSnake/kopuz-plugin-audius",
+      "services": [
+        "audius"
+      ],
+      "network": [
+        "*.audius.co"
+      ],
+      "manifest": {
+        "url": "https://github.com/FormalSnake/kopuz-plugin-audius/releases/download/v0.1.0/kopuz-plugin.toml",
+        "sha256": "f9daab729334bb76c0015dba9bb1c41139ccddf5c4dd54455011d77bd105c321"
+      },
+      "component": {
+        "url": "https://github.com/FormalSnake/kopuz-plugin-audius/releases/download/v0.1.0/plugin.wasm",
+        "sha256": "d9f0ceef38a37170284c8020f23703df343c0c688067d31d3e99d1af73160718"
+      }
+    }
+  ]
+}

@@ -23,6 +23,28 @@
         "url": "https://github.com/FormalSnake/kopuz-plugin-audius/releases/download/v0.1.0/plugin.wasm",
         "sha256": "d9f0ceef38a37170284c8020f23703df343c0c688067d31d3e99d1af73160718"
       }
+    },
+    {
+      "id": "koposu",
+      "name": "koposu",
+      "version": "0.1.0",
+      "api": "0.1",
+      "description": "Your osu!lazer and osu!stable song libraries, played from the folders they are in.",
+      "author": "temidaradev",
+      "homepage": "https://github.com/temidaradev/koposu",
+      "services": [
+        "osu"
+      ],
+      "network": [],
+      "folders": "read",
+      "manifest": {
+        "url": "https://github.com/temidaradev/koposu/releases/download/v0.1.0/kopuz-plugin.toml",
+        "sha256": "a0c6f3aff572836baaace77dc5dca44a3fddc1f3525294127378e4d580b35b01"
+      },
+      "component": {
+        "url": "https://github.com/temidaradev/koposu/releases/download/v0.1.0/plugin.wasm",
+        "sha256": "ff7f5a2f61dcf8e9f7c3f120b98641a29d3889e184c40884eecd9273d6f83813"
+      }
     }
   ]
 }

@@ -45,6 +45,31 @@
         "url": "https://github.com/temidaradev/koposu/releases/download/v0.1.0/plugin.wasm",
         "sha256": "ff7f5a2f61dcf8e9f7c3f120b98641a29d3889e184c40884eecd9273d6f83813"
       }
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "version": "0.1.0",
+      "api": "0.2",
+      "description": "Your Spotify library, liked songs and playlists, with search across the catalogue. Playback needs Spotify Premium.",
+      "author": "FormalSnake",
+      "homepage": "https://github.com/FormalSnake/kopuz-plugin-spotify",
+      "services": [
+        "spotify"
+      ],
+      "network": [
+        "*.spotify.com",
+        "*.spotifycdn.com",
+        "*.scdn.co"
+      ],
+      "manifest": {
+        "url": "https://github.com/FormalSnake/kopuz-plugin-spotify/releases/download/v0.1.0/kopuz-plugin.toml",
+        "sha256": "49f71d35d46b40940a2a52c81394739e242953c569a4e2c7585a5f7cddf5034c"
+      },
+      "component": {
+        "url": "https://github.com/FormalSnake/kopuz-plugin-spotify/releases/download/v0.1.0/plugin.wasm",
+        "sha256": "b909b6306422dad4b5339ef8ee7b802705a11060d2289456bc14eed02dafa536"
+      }
     }
   ]
 }

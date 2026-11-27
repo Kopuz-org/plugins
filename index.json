@@ -47,8 +47,8 @@
       }
     },
     {
-      "id": "spotify",
-      "name": "Spotify",
+      "id": "spotify-native",
+      "name": "Spotify-native",
       "version": "0.1.0",
       "api": "0.2",
       "description": "Your Spotify library, liked songs and playlists, with search across the catalogue. Playback needs Spotify Premium.",
